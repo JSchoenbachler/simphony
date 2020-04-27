@@ -10,7 +10,7 @@ Description: A tool for simulating rhythmic data: transcriptome data using
   using Bernoulli or Poisson distributions.
 Depends: R (>= 3.4)
 Roxygen: list(markdown = TRUE)
-URL: https://github.com/hugheylab/simphony
+URL: https://github.com/JSchoenbachler/simphony
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
@@ -27,3 +27,4 @@ Suggests:
   testthat (>= 2.0.0)
 RoxygenNote: 7.0.2
 VignetteBuilder: knitr
+BugReports: https://github.com/JSchoenbachler/simphony/issues
