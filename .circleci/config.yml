@@ -43,7 +43,7 @@ jobs:
       - run:
           name: Deploy to drat
           command: |
-            if [ "${CIRCLE_BRANCH}" == "master" & FALSE ]; then
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
               git clone https://github.com/jschoenbachler/drat;
               cd drat;
               git remote rm origin;
